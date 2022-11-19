@@ -3,7 +3,7 @@ module.exports = app => {
 
   var router = require("express").Router();
 
-  // Create a new Tutorial
+  // Create a new Gateway
   router.post("/", gateways.create);
 
   // Retrieve all Gateways
@@ -12,13 +12,13 @@ module.exports = app => {
   // Retrieve all published Gateways
   router.get("/published", gateways.findAllPublished);
 
-  // Retrieve a single Tutorial with id
+  // Retrieve a single Gateway with id
   router.get("/:id", gateways.findOne);
 
-  // Update a Tutorial with id
+  // Update a Gateway with id
   router.put("/:id", gateways.update);
 
-  // Delete a Tutorial with id
+  // Delete a Gateway with id
   router.delete("/:id", gateways.delete);
 
   // Delete all Gateways
