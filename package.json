@@ -14,7 +14,7 @@
     "sequelize",
     "mysql"
   ],
-  "author": "bezkoder",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
